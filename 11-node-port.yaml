@@ -13,7 +13,7 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 80
-    nodeport: 30006
+    nodePort: 30007
 --- 
 kind: Pod
 apiVersion: v1

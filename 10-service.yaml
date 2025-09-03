@@ -9,9 +9,9 @@ spec:
     environment: dev
     version: 1.0.0
   ports:
-    - protocol: TCP
-      port: 80
-      targetport: 80
+  - protocol: TCP
+    port: 80
+    targetport: 80
 --- 
 kind: Pod
 apiVersion: v1

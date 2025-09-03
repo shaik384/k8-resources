@@ -7,7 +7,7 @@ spec:
     - name: nginx
       image: nginx
       resources:
-        resquests:
+        requests:
           memory: "70mi"
           cpu: "150m"
         limits:

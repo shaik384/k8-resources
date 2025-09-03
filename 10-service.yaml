@@ -13,6 +13,8 @@ spec:
       port: 80
       targetport: 80
 
+---    
+
 
 kind: Pod
 apiVersion: v1
@@ -27,5 +29,5 @@ spec:
  containers:
   - name: nginx
     image: nginx
-    
+
 

@@ -7,8 +7,8 @@ metadata:
     tier: frontend
     purpose: Deployment
 spec:
- replicas: 3
- selector:
+  replicas: 3
+  selector:
     matchLabels:
      app: nginx
   template:

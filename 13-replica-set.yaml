@@ -8,7 +8,7 @@ metadata:
   spec:
     replicas: 3
     selector:
-      matchlables:
+      matchLables:
         app: frontend
         tier: web
     template:

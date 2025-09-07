@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: joindevops/deployment:1.0 
+        image: nginx:1.14.0
         ports:
         - containerPort: 80
 ---
